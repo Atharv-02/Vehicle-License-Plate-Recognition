@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+
+# Generated artifacts. The source clip in Input/ is tracked via Git LFS.
+Output/

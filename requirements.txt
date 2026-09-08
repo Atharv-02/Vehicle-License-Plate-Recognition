@@ -1,0 +1,28 @@
+# Vehicle License Plate Recognition - dependencies
+# Versions match the working ./venv (Python 3.9).
+#
+#   python3 -m venv venv
+#   ./venv/bin/pip install -r requirements.txt
+
+# Detection and tracking
+ultralytics==8.4.143
+torch==2.8.0
+torchvision==0.23.0
+
+# OCR
+easyocr==1.7.2
+
+# SORT tracker (sort/sort.py)
+# 'lap' is optional - SORT falls back to scipy.optimize.linear_sum_assignment.
+filterpy==1.4.5
+scikit-image==0.24.0
+
+# Video, arrays, data
+opencv-python==4.11.0.86
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.13.1
+matplotlib==3.9.4
+
+# Running the notebooks in Jupyter / VS Code
+ipykernel==6.31.0

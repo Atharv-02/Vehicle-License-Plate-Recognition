@@ -1,0 +1,2 @@
+# Video assets are stored in Git LFS - they exceed GitHub's 100 MB blob limit.
+*.mp4 filter=lfs diff=lfs merge=lfs -text
